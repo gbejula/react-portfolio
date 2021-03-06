@@ -13,3 +13,7 @@ font-size: 40px;
 .links {
   font-size: 22px;
 }
+
+.down {
+  min-height: 80vh;
+}
