@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <Header />
@@ -17,6 +17,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

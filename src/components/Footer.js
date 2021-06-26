@@ -8,9 +8,10 @@ const Footer = () => {
   return (
     <div>
       <Container>
+        <hr />
         <Row>
           <Col className='text-center py-3 down'>
-            &copy; copyright {currentYear} | Olugbenga Ajayi
+            &copy; {currentYear} | Olugbenga Ajayi
           </Col>
         </Row>
       </Container>
