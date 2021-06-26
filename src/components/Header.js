@@ -3,8 +3,8 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Header = () => {
   return (
-    <div>
-      <Navbar bg='light' variant='light' expand='lg'>
+    <>
+      <Navbar bg='light' fixed='top' variant='light' expand='lg'>
         <Container>
           <Navbar.Brand className='brand' href='#home'>
             Olugbenga Ajayi
@@ -28,7 +28,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    </>
   );
 };
 

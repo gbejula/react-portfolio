@@ -11,7 +11,7 @@ const Footer = () => {
         <hr />
         <Row>
           <Col className='text-center py-3 down'>
-            &copy; {currentYear} | Olugbenga Ajayi
+            <p>&copy; {currentYear} | Olugbenga Ajayi</p>
           </Col>
         </Row>
       </Container>

@@ -25,21 +25,40 @@ main {
   display: block;
   border: 5px solid white;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 130px;
   width: 95%;
-  text-align: right;
 }
 
 .title {
-  padding-top: 100px;
+  padding-top: 180px;
 }
 
 hr {
   background-color: rgb(134, 134, 134);
 }
 
+.message {
+  font-size: 1.3rem;
+  padding-top: 15px;
+}
 
-@media (max-width: 400px) {
+.btn {
+  background-color: #ABB6C2;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  color: black;
+  border-radius: 15px;
+  outline: none;
+  width: 150px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #577796;
+}
+
+
+@media all and (max-width: 760px) {
   .row {
     display: flex;
     flex-direction: column;
