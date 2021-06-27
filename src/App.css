@@ -57,6 +57,33 @@ hr {
   background-color: #577796;
 }
 
+.scale {
+  width: 50px;
+}
+
+.tech {
+  display: inline-block;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+}
+
+.signature {
+  font-size: 1.3rem;
+}
+
+.font-icons {
+  margin-right: 20px;
+  text-align: center;
+}
+
+
 
 @media all and (max-width: 760px) {
   .row {
@@ -79,6 +106,13 @@ hr {
   .title {
     padding-top: 25px;
     text-align: center;
-    
+  }
+
+  .icons {
+    flex-direction: column;
+  }
+
+  .socials {
+    flex-direction: column;
   }
 }
