@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import './App.css';
 import Footer from './components/Footer';
@@ -7,7 +8,7 @@ import HomeScreen from './screens/HomeScreen';
 
 const App = () => {
   return (
-    <div className='App'>
+    <Router className='App'>
       <Header />
       <main>
         <Container>
@@ -15,7 +16,7 @@ const App = () => {
         </Container>
       </main>
       <Footer />
-    </div>
+    </Router>
   );
 };
 

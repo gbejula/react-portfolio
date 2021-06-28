@@ -22,8 +22,12 @@ const HomeScreen = () => {
               I create responsive web applications with an eye for beautiful
               user interface and experience.
             </p>
-            <button className='btn btn-lg'>Projects</button>{' '}
-            <button className='btn'>Skills</button>
+            <button type='button' className='btn'>
+              <a href='#technology'>Projects</a>
+            </button>{' '}
+            <button type='button' className='btn'>
+              Skills
+            </button>
           </Col>
 
           <Col className='pix'>
@@ -31,8 +35,8 @@ const HomeScreen = () => {
           </Col>
         </Row>
 
-        <section>
-          <h2>Technologies</h2>
+        <section id='technology'>
+          <h2 className='technology-heading'>Technologies</h2>
           <div className='icons'>
             <div>
               <img src={html} alt='html' className='scale' />
@@ -72,6 +76,8 @@ const HomeScreen = () => {
             </div>
           </div>
         </section>
+
+        <section></section>
       </Container>
     </>
   );

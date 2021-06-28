@@ -16,10 +16,31 @@ const Footer = () => {
                 &copy; {currentYear} | Olugbenga Ajayi
               </p>
               <p>
-                <i className='font-icons fab fa-2x fa-github' />
-                <i className='font-icons fab fa-2x fa-linkedin-in' />
-                <i className='font-icons fab fa-2x fa-twitter' />
-                <i className='font-icons fab fa-2x fa-facebook-f' />
+                <a
+                  classsName='handles'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/gbejula'>
+                  <i className='font-icons fab fa-2x fa-github' />
+                </a>
+                <a
+                  href='https://linkedin.com'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  <i className='font-icons fab fa-2x fa-linkedin-in' />
+                </a>
+                <a
+                  href='https://twitter.com/cgbejula'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  <i className='font-icons fab fa-2x fa-twitter' />
+                </a>
+                <a
+                  href='https://facebook.com/ajayig'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  <i className='font-icons fab fa-2x fa-facebook-f' />
+                </a>
               </p>
             </div>
           </Col>

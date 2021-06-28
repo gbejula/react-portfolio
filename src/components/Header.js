@@ -22,7 +22,7 @@ const Header = () => {
                 About
               </Nav.Link>
               <Nav.Link className='links ml-4' href='/contact'>
-                Contact Me
+                Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

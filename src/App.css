@@ -47,14 +47,34 @@ hr {
   padding: 12px 30px;
   font-size: 1.2rem;
   color: black;
-  border-radius: 15px;
+  border-radius: 10px;
   outline: none;
   width: 150px;
   border: none;
+  margin: 5px;
 }
 
 .btn:hover {
   background-color: #577796;
+}
+
+#technology {
+  margin: 180px 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.technology-heading {
+  margin-bottom: 80px;
+  text-align: center;
+  text-transform: uppercase;;
 }
 
 .scale {
@@ -63,15 +83,19 @@ hr {
 
 .tech {
   display: inline-block;
-}
-
-.socials {
-  display: flex;
-  justify-content: space-between;
+  text-transform: uppercase;
+  padding-right: 30px;
 }
 
 .icons {
   display: flex;
+}
+
+
+/* Footer */
+.socials {
+  display: flex;
+  justify-content: space-between;
 }
 
 .signature {
@@ -81,6 +105,10 @@ hr {
 .font-icons {
   margin-right: 20px;
   text-align: center;
+}
+
+.handles {
+  color: white;
 }
 
 
@@ -110,9 +138,11 @@ hr {
 
   .icons {
     flex-direction: column;
+    align-items: center;
   }
 
   .socials {
     flex-direction: column;
   }
+
 }
