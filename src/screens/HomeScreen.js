@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Row, Col, Container } from 'react-bootstrap';
 import gbenga from '../images/gbenga.jpg';
 import html from '../images/html5.png';
@@ -20,10 +21,10 @@ const HomeScreen = () => {
             <h1 className='title'>Hi, I'm Gbenga, a Full-stack Developer</h1>
             <p className='message'>
               I create responsive web applications with an eye for beautiful
-              user interface and experience.
+              user interface and experience, <Link to='/about'>learn more</Link>
             </p>
             <button type='button' className='btn'>
-              <a href='#technology'>Projects</a>
+              Projects
             </button>{' '}
             <button type='button' className='btn'>
               Skills

@@ -5,6 +5,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
+import Portfolio from './screens/Portfolio';
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Header />
       <main>
         <Container>
-          <HomeScreen />
+          <Route path='/' component={HomeScreen} exact />
+          <Route path='/portfolio' component={Portfolio} />
         </Container>
       </main>
       <Footer />

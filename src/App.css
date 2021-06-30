@@ -92,6 +92,29 @@ a:hover {
 }
 
 
+
+/* Portfolio */
+
+.project-box {
+  display: flex;
+  padding-top: 150px;
+}
+
+.box {
+  padding-bottom: 20px;
+}
+
+.box1 {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.title-heading {
+  font-size: 2rem;
+}
+
+/*----------- Portfolio---------- */
+
 /* Footer */
 .socials {
   display: flex;
