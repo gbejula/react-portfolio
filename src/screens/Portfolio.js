@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className='box'>
           <img className='box1' src={Delicious} alt='food-store' />
 
-          <p>
+          <p className='img-text'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, odit
             ab. Voluptates error, aspernatur asperiores soluta distinctio culpa
             delectus neque!
@@ -20,7 +20,7 @@ const Portfolio = () => {
         <div className='box'>
           <img className='box1' src={Store} alt='store-app' />
 
-          <p>
+          <p className='img-text'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, odit
             ab. Voluptates error, aspernatur asperiores soluta distinctio culpa
             delectus neque!

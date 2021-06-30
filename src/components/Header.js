@@ -19,12 +19,12 @@ const Header = () => {
               <LinkContainer to='/portfolio'>
                 <Nav.Link className='links ml-4'>Portfolio</Nav.Link>
               </LinkContainer>
-              <Nav.Link className='links ml-4' href='/about'>
-                About
-              </Nav.Link>
-              <Nav.Link className='links ml-4' href='/contact'>
-                Contact
-              </Nav.Link>
+              <LinkContainer to='/about'>
+                <Nav.Link className='links ml-4'>About</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/contact'>
+                <Nav.Link className='links ml-4'>Contact</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>

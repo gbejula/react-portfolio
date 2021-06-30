@@ -95,6 +95,10 @@ a:hover {
 
 /* Portfolio */
 
+.title-heading {
+  font-size: 2rem;
+}
+
 .project-box {
   display: flex;
   padding-top: 150px;
@@ -102,6 +106,7 @@ a:hover {
 
 .box {
   padding-bottom: 20px;
+  margin-right: 25px;
 }
 
 .box1 {
@@ -109,9 +114,12 @@ a:hover {
   max-height: 500px;
 }
 
-.title-heading {
-  font-size: 2rem;
+.img-text {
+  padding-top: 20px;
+  max-width: 470px;
 }
+
+
 
 /*----------- Portfolio---------- */
 
@@ -168,4 +176,16 @@ a:hover {
     flex-direction: column;
   }
 
+  .project-box {
+    flex-direction: column;
+  }
+
+  .box1 {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .img-text {
+    text-align: left;
+  }
 }
