@@ -78,8 +78,6 @@ const HomeScreen = () => {
             </div>
           </div>
         </section>
-
-        <section></section>
       </Container>
     </>
   );

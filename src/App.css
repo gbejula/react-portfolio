@@ -55,7 +55,9 @@ hr {
 }
 
 .btn:hover {
-  background-color: #577796;
+  background-color: transparent;
+  border: 1px solid #ABB6C2;
+  /* #577796; */
 }
 
 #technology {
@@ -79,12 +81,13 @@ a:hover {
 
 .scale {
   width: 50px;
+  margin-bottom: 8px;
 }
 
 .tech {
   display: inline-block;
   text-transform: uppercase;
-  padding-right: 30px;
+  padding-right: 35px;
 }
 
 .icons {
@@ -160,6 +163,10 @@ a:hover {
 
   .pic {
     width: 80%;
+  }
+
+  .scale {
+    margin-right: 15px;
   }
 
   .title {
