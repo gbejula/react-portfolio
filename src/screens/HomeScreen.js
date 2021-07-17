@@ -24,12 +24,16 @@ const HomeScreen = () => {
               user interface and experience,{' '}
               <Link to='/portfolio'>learn more</Link>
             </p>
-            <button type='button' className='btn'>
-              Projects
-            </button>{' '}
-            <button type='button' className='btn'>
-              Skills
-            </button>
+            <Link to='/portfolio'>
+              <button type='button' className='btn'>
+                Projects
+              </button>
+            </Link>{' '}
+            <Link to='/#technology'>
+              <button type='button' className='btn'>
+                Skills
+              </button>
+            </Link>
           </Col>
 
           <Col className='pix'>

@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
 import Portfolio from './screens/Portfolio';
+import Contact from './screens/Contact';
+import About from './screens/About';
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
         <Container>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/portfolio' component={Portfolio} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/about' component={About} />
         </Container>
       </main>
       <Footer />

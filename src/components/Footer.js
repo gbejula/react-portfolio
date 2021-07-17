@@ -24,7 +24,7 @@ const Footer = () => {
                   <i className='font-icons fab fa-2x fa-github' />
                 </a>
                 <a
-                  href='https://linkedin.com'
+                  href='https://www.linkedin.com/in/olugbenga-ajayi-333a5b30/'
                   target='_blank'
                   rel='noopener noreferrer'>
                   <i className='font-icons fab fa-2x fa-linkedin-in' />
