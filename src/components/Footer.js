@@ -35,12 +35,12 @@ const Footer = () => {
                   rel='noopener noreferrer'>
                   <i className='font-icons fab fa-2x fa-twitter' />
                 </a>
-                <a
+                {/* <a
                   href='https://facebook.com/ajayig'
                   target='_blank'
                   rel='noopener noreferrer'>
                   <i className='font-icons fab fa-2x fa-facebook-f' />
-                </a>
+                </a> */}
               </p>
             </div>
           </Col>
