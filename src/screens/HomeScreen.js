@@ -8,7 +8,7 @@ import react from '../images/react2.png';
 import node from '../images/nodejs.png';
 import mongo from '../images/mongo.png';
 import firebase from '../images/firebase.png';
-import typescript from '../images/typescript.png';
+// import typescript from '../images/typescript.png';
 import next from '../images/nextjs.png';
 import bootstrap from '../images/bootstrap.svg';
 
@@ -42,7 +42,7 @@ const HomeScreen = () => {
         </Row>
 
         <section id='technology'>
-          <h2 className='technology-heading'>Technologies</h2>
+          <h2 className='technology-heading'>My Skills</h2>
           <div className='icons'>
             <div>
               <img src={html} alt='html' className='scale' />
@@ -72,10 +72,10 @@ const HomeScreen = () => {
               <img src={next} alt='nextjs' className='scale' />
               <p className='tech'>Nextjs</p>
             </div>
-            <div>
+            {/* <div>
               <img src={typescript} alt='typescript' className='scale' />
               <p className='tech'>Typescript</p>
-            </div>
+            </div> */}
             <div>
               <img src={bootstrap} alt='bootstrap' className='scale' />
               <p className='tech'>Bootstrap</p>
