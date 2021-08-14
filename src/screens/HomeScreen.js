@@ -21,8 +21,7 @@ const HomeScreen = () => {
             <h1 className='title'>Hi, I'm Gbenga, a Full-stack Developer</h1>
             <p className='message'>
               I create responsive web applications with an eye for beautiful
-              user interface and experience,{' '}
-              <Link to='/portfolio'>learn more</Link>
+              user interface and experience, <Link to='/about'>learn more</Link>
             </p>
             <Link to='/portfolio'>
               <button type='button' className='btn'>

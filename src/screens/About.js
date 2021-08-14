@@ -2,10 +2,15 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div>
-      <h1>This is about me</h1>
-      <h2>Thank you for coming to see my website</h2>
-      <h2>Thank you for coming</h2>
+    <div className='about'>
+      <h1 className='bio-heading'>About me</h1>
+      <p className='bio'>
+        I have a Bachelor's degree in computer engineering. I started out as an
+        information technology assistant and moved on to become a technical
+        support engineer. During this period, I gained experience in people
+        management and excellent customer science while working with different
+        people in different roles.
+      </p>
     </div>
   );
 };

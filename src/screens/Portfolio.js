@@ -13,6 +13,7 @@ const Portfolio = props => {
               image={card.image}
               header={card.header}
               about={card.about}
+              description={card.description}
               key={card.id}
             />
           ))}
