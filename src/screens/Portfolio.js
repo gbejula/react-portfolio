@@ -14,6 +14,7 @@ const Portfolio = props => {
               header={card.header}
               about={card.about}
               description={card.description}
+              link={card.link}
               key={card.id}
             />
           ))}

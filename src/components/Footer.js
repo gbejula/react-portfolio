@@ -17,23 +17,22 @@ const Footer = () => {
               </p>
               <p>
                 <a
-                  classsName='handles'
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://github.com/gbejula'>
-                  <i className='font-icons fab fa-2x fa-github' />
+                  <i className='font-icons fab fa-2x fa-github handles' />
                 </a>
                 <a
                   href='https://www.linkedin.com/in/olugbenga-ajayi-333a5b30/'
                   target='_blank'
                   rel='noopener noreferrer'>
-                  <i className='font-icons fab fa-2x fa-linkedin-in' />
+                  <i className='font-icons fab fa-2x fa-linkedin-in handles-linkedin' />
                 </a>
                 <a
                   href='https://twitter.com/cgbejula'
                   target='_blank'
                   rel='noopener noreferrer'>
-                  <i className='font-icons fab fa-2x fa-twitter' />
+                  <i className='font-icons fab fa-2x fa-twitter handles-twitter' />
                 </a>
                 {/* <a
                   href='https://facebook.com/ajayig'
