@@ -126,7 +126,8 @@ a:hover {
 
 .img-text {
   padding-top: 5px;
-  max-width: 400px;
+  font-size: 1.2rem;
+  color: rgb(177, 177, 177);
 }
 
 

@@ -11,6 +11,9 @@ const CardContainer = props => {
             <p className='head'>{props.header}</p>
             <p className='img-text'>{props.about}</p>
             <p className='describe'>{props.description}</p>
+            <a href={props.link} target='_blank' rel='noopener noreferrer'>
+              {props.link}
+            </a>
           </div>
         </div>
       </Col>

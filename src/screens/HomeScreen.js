@@ -11,6 +11,7 @@ import firebase from '../images/firebase.png';
 // import typescript from '../images/typescript.png';
 import next from '../images/nextjs.png';
 import bootstrap from '../images/bootstrap.svg';
+import { HashLink } from 'react-router-hash-link';
 
 const HomeScreen = () => {
   return (
@@ -28,11 +29,11 @@ const HomeScreen = () => {
                 Projects
               </button>
             </Link>{' '}
-            <Link to='/#technology'>
+            <HashLink smooth to='/#technology'>
               <button type='button' className='btn'>
                 Skills
               </button>
-            </Link>
+            </HashLink>
           </Col>
 
           <Col className='pix'>

@@ -9,7 +9,7 @@ const card_data = [
     header: 'Food App',
     description:
       'This project is about an online food store where people can order food and have it sent to their specified address',
-    about: 'This is a food app to take your orders',
+    about: 'React, Context API, Firebase, HTML5, CSS3, JavaScript, Netlify',
   },
   {
     id: 2,
@@ -17,7 +17,8 @@ const card_data = [
     header: 'Phone Store App',
     description:
       'This project is a template for an online store where used electronics are sold at a reduced price.',
-    about: 'This is for phone store app',
+    about: 'React, Styled component, JavaScript, HTML5, CSS3, Netlify',
+    link: 'https://mealdemo.netlify.app',
   },
   {
     id: 3,
@@ -25,7 +26,7 @@ const card_data = [
     header: 'Fashion House',
     description:
       'This is a landing page for a fashion house or school with a testimonial section.',
-    about: 'This is a template for a fashion house',
+    about: 'HTML5, CSS3, Bootstrap',
   },
 ];
 
