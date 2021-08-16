@@ -4,6 +4,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import gbenga from '../images/gbenga.jpg';
 import html from '../images/html5.png';
 import css from '../images/css3.png';
+import js from '../images/js.png';
 import react from '../images/react2.png';
 import node from '../images/nodejs.png';
 import mongo from '../images/mongo.png';
@@ -22,7 +23,10 @@ const HomeScreen = () => {
             <h1 className='title'>Hi, I'm Gbenga, a Full-stack Developer</h1>
             <p className='message'>
               I create responsive web applications with an eye for beautiful
-              user interface and experience, <Link to='/about'>learn more</Link>
+              user interface and experience,{' '}
+              <Link className='learnmore' to='/about'>
+                learn more
+              </Link>
             </p>
             <Link to='/portfolio'>
               <button type='button' className='btn'>
@@ -51,6 +55,10 @@ const HomeScreen = () => {
             <div>
               <img src={css} alt='css' className='scale' />
               <p className='tech'>css3</p>
+            </div>
+            <div>
+              <img src={js} alt='js' className='scale' />
+              <p className='tech'>js</p>
             </div>
             <div>
               <img src={react} alt='react' className='scale' />
