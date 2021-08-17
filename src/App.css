@@ -192,6 +192,8 @@ hr {
 
 .demo:hover {
   color: #ABB6C2;
+  text-decoration: none;
+  transform:scale(2);
 }
 
 /* -------portfolio ------***-----------*/
@@ -201,8 +203,8 @@ hr {
 /* About -------------------- */
 
 .about {
-  margin: 0 auto;
-  max-width: 800px;
+  /* margin: 0 auto; */
+  /* max-width: 800px; */
 }
 
 .bio-heading {
