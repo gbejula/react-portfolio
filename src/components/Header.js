@@ -5,7 +5,12 @@ import { LinkContainer } from 'react-router-bootstrap';
 const Header = () => {
   return (
     <>
-      <Navbar bg='light' fixed='top' variant='light' expand='lg'>
+      <Navbar
+        collapseOnSelect
+        bg='light'
+        fixed='top'
+        variant='light'
+        expand='lg'>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand className='brand'>Olugbenga Ajayi</Navbar.Brand>

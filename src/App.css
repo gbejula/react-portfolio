@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 * {
   font-family: 'Lato', sans-serif;
+}
+
+:root {
+  --typewriterSpeed: 6s;
 }
 
 body {
@@ -24,7 +29,7 @@ body {
 
 
 main {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .pic {
@@ -37,8 +42,9 @@ main {
   width: 95%;
 }
 
+
 .title {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 hr {
@@ -188,12 +194,13 @@ hr {
 .demo {
   color: white;
   font-size: 1.1rem;
+  transform: scale(0);
 }
 
 .demo:hover {
   color: #ABB6C2;
   text-decoration: none;
-  transform:scale(2);
+  transform: scale(1.2);
 }
 
 /* -------portfolio ------***-----------*/
@@ -202,22 +209,10 @@ hr {
 
 /* About -------------------- */
 
-.about {
-  /* margin: 0 auto; */
-  /* max-width: 800px; */
-}
-
-.bio-heading {
-  position: relative;
-  margin: auto;
-  padding-bottom: 20px;
-  transform: rotateX(45);
-
-}
 
 .bio {
-  font-size: 1.2rem;
-
+  font-size: 1.3rem;
+  padding: 20px 0;
 }
 
 /************** Contact *************/
@@ -282,5 +277,9 @@ hr {
 
   .head {
     font-size: 1.3rem;
+  }
+
+  .bio {
+    font-size: 1.2rem;
   }
 }

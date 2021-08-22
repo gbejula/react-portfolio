@@ -6,7 +6,7 @@ const Portfolio = props => {
   return (
     <>
       <Container>
-        <h2 className='title-heading'>Portfolio</h2>
+        {/* <h2 className='title-heading'>Portfolio</h2> */}
         <Row>
           {card_data.map((card, index) => (
             <CardContainer
