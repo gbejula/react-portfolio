@@ -216,10 +216,37 @@ hr {
 }
 
 /************** Contact *************/
+.greeting-container {
+  text-align: center;
+}
 
+.greeting {
+  font-size: 7rem;
+  text-align: center;
+}
 
+.greeting-text {
+  font-size: 1.3rem;
+}
+
+.info {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.fa-icon {
+  margin-right: 20px;
+  text-align: center;
+}
 
 /*--------------------- Contact -----------------------*/
+
+
+
 
 
 
@@ -282,4 +309,20 @@ hr {
   .bio {
     font-size: 1.2rem;
   }
+
+  .greeting {
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .greeting-text {
+    font-size: 1.2rem;
+  }
+  
+  .info {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1.3rem;
+  }
+  
 }
