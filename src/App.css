@@ -10,6 +10,12 @@
 body {
   margin: 0;
   padding-top: 110px;
+  background-color: #dbbfc8;
+  color: black;
+}
+
+.navbar {
+  background-color: #6B3848 !important;
 }
 
 
@@ -18,10 +24,16 @@ body {
 .brand {
   font-family: 'Kristi', cursive;
   font-size: 40px;
+  color: white !important;
 }
 
 .links {
   font-size: 22px;
+  color: #DCBCC6 !important;
+}
+
+.link:hover {
+  color: white !important;
 }
 
 
@@ -33,7 +45,7 @@ main {
   position: relative;
   border-radius: 50%;
   display: block;
-  border: 5px solid white;
+  border: 5px solid #6B3848;
   margin: 0 auto;
   margin-top: 70px;
   width: 95%;
@@ -90,6 +102,7 @@ hr {
   display: inline-block;
   text-transform: uppercase;
   padding-right: 35px;
+  font-weight: 500;
 }
 
 .icons {
@@ -124,13 +137,13 @@ hr {
 }
 
 .learnmore {
-  color: white;
+  color: black;
 }
 
 .learnmore:hover {
   text-decoration: none;  
-  border-bottom: 2px solid white;
-  color: rgb(172, 170, 170);
+  border-bottom: 2px solid #6B3848;
+  color: white
 }
 
 /*------xxxx-------- Home --------xxx--------*/
@@ -155,15 +168,15 @@ hr {
 }
 
 .handles {
-  color: white;
-}
-
-.handles:hover {
   color: black;
 }
 
-.handles-linkedin {
+.handles:hover {
   color: white;
+}
+
+.handles-linkedin {
+  color: black;
 }
 
 .handles-linkedin:hover {
@@ -171,7 +184,7 @@ hr {
 }
 
 .handles-twitter {
-  color: white;
+  color: black;
 }
 
 .handles-twitter:hover {
