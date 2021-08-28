@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding-top: 110px;
-  background-color: #dbbfc8;
+  background-color: #F1E4E8;
   color: black;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .links {
   font-size: 22px;
-  color: #DCBCC6 !important;
+  color: #F1E4E8 !important;
 }
 
 .link:hover {
@@ -54,6 +54,7 @@ main {
 
 .title {
   padding-top: 70px;
+  font-size: 2.5rem;
 }
 
 hr {
@@ -66,7 +67,7 @@ hr {
 }
 
 .btn {
-  background-color: #ABB6C2;
+  background-color: #C794A4;
   padding: 12px 30px;
   font-size: 1.2rem;
   color: black;
@@ -79,8 +80,8 @@ hr {
 
 .btn:hover {
   background-color: transparent;
-  border: 1px solid #ABB6C2;
-  /* #577796; */
+  border: 1px solid #6B3848;
+  color: #C794A4;
 }
 
 #technology {
@@ -133,7 +134,7 @@ hr {
 .img-text {
   padding-top: 5px;
   font-size: 1.2rem;
-  color: rgb(177, 177, 177);
+  color: #6B3848;
 }
 
 .learnmore {
@@ -202,13 +203,13 @@ hr {
 }
 
 .demo {
-  color: white;
+  color: black;
   font-size: 1.1rem;
   transform: scale(0);
 }
 
 .demo:hover {
-  color: #ABB6C2;
+  color: #6B3848;
   text-decoration: none;
   transform: scale(1.2);
 }
@@ -286,8 +287,9 @@ hr {
   }
 
   .title {
-    padding-top: 25px;
-    text-align: center;
+    padding-top: 20px;
+    /* text-align: center; */
+    font-size: 2rem;
   }
 
   .icons {
