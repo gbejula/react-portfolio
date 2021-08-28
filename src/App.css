@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  padding-top: 110px;
+  padding-top: 100px;
   background-color: #F1E4E8;
   color: black;
 }
@@ -47,7 +47,7 @@ main {
   display: block;
   border: 5px solid #6B3848;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 40px;
   width: 95%;
 }
 
