@@ -25,7 +25,9 @@ const Header = () => {
                 <Nav.Link className='links ml-4'>Portfolio</Nav.Link>
               </LinkContainer>
               <LinkContainer to='/about'>
-                <Nav.Link className='links ml-4'>About</Nav.Link>
+                <Nav.Link exact activeClassName='active' className='links ml-4'>
+                  About
+                </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/contact'>
                 <Nav.Link className='links ml-4'>Contact</Nav.Link>

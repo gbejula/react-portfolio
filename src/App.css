@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 
 * {
   font-family: 'Lato', sans-serif;
@@ -16,6 +16,11 @@ body {
 
 .navbar {
   background-color: #6B3848 !important;
+}
+
+.navbar-toggler {
+  /* background-color: #fff; */
+  border-color: #fff;
 }
 
 
@@ -49,13 +54,40 @@ main {
   margin: 0 auto;
   margin-top: 40px;
   width: 95%;
+  animation: slide-in 2000ms ease-in;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  } 
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
 
 .title {
   padding-top: 70px;
   font-size: 2.5rem;
+  animation: slide-in 2000ms ease-in;
+  
 }
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }  
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+
 
 hr {
   background-color: rgb(134, 134, 134);
@@ -64,6 +96,19 @@ hr {
 .message {
   font-size: 1.3rem;
   padding-top: 15px;
+  animation: expand 2s ease-in-out;
+}
+
+@keyframes expand {
+  from {
+    transform: translateY(100%);
+    opacity: -1;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  
 }
 
 .btn {
