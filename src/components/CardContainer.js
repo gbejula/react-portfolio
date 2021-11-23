@@ -16,7 +16,7 @@ const CardContainer = props => {
               target='_blank'
               rel='noopener noreferrer'
               className='demo'>
-              Live demo
+              <button className='btn'>Live demo</button>
             </a>
           </div>
         </div>

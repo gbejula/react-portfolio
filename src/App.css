@@ -139,26 +139,116 @@ hr {
   text-transform: uppercase;;
 }
 
-.scale {
-  width: 50px;
+.resize-img {
+  width: 60px;
   margin-bottom: 8px;
+  margin-right: 10px;
 }
+
 
 .tech {
-  display: inline-block;
   text-transform: uppercase;
   padding-right: 35px;
-  font-weight: 500;
+  
 }
 
-.icons {
-  display: flex;
+.icons1 div, .icons2 div, .icons3 div {
+  border: 1px solid #F1E4E8;
+  padding: 8px;
+  /* #F1E4E8 */
 }
+
+.icons1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mongo-logo {
+  width: 130px;
+  padding-bottom: 18px;
+}
+
+.icons2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.icons3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.html-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.css-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.js-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.react-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.node-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.mongo-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.firebase-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.next-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.bootstrap-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
 
 .title-heading {
   font-size: 2rem;
   /* padding-top: 20px; */
 }
+
 
 .project-box {
   display: flex;
@@ -337,9 +427,21 @@ hr {
     font-size: 2rem;
   }
 
-  .icons {
+  .icons1 {
     flex-direction: column;
     align-items: center;
+    /* justify-content: flex-end; */
+  }
+
+  .icons2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons3 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .socials {
