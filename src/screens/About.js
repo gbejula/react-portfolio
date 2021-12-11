@@ -1,29 +1,22 @@
-import React from 'react';
+import React from 'react'
 
 const About = () => {
   return (
     <div className='about'>
       <p className='bio'>
-        I have a Bachelor's degree in computer engineering. I started out as an
-        information technology assistant and moved on to become a technical
-        support engineer. During this period, I gained experience in people
-        management and excellent customer science while working with different
-        people in different roles.
-        <br /> <br />
-        After realizing my passion for software development, I took courses from
-        various online site like coursera, freecodecamp and udacity. Afterwards,
-        I was opportuned to be part of a 3 months immersive program by Facebook
-        called DevC Training in collaboration with Andela learning community
-        (ALC). The program taught basic to immediate skills of a full-stack
-        developer. Furthermore, I went on to learn about ReactJs in other to
-        build exceptional beautiful user-interfaces.
-        <br /> <br />I am presently looking to land my first job as a frontend
-        developer in an organization that fosters growth, learning and career
-        progression. I also look to contribute immersely to this organization
-        through my education, previous skills and acquired knowledge.
+        I am a Self-Taught Front-End Developer with over 2 years of experience
+        that enjoys creating responsive and interactive websites and
+        applications. I am currently skilled in HTML5, CSS3, Bootstrap,
+        JavaScript and ReactJs. I am a life-long learner and I enjoy learning
+        new things everyday. My quest for learning has prompted curiosity to
+        know how the backend technology works, hence, I am learning about Nodejs
+        and Express.
+        <br /> <br />I have a Bachelor's degree in computer engineering. I
+        forward to contributing to my skills and education to an organization
+        that fosters growth, learning and career progression.
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+import React from 'react'
+import { Navbar, Nav, Container } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 const Header = () => {
   return (
@@ -24,11 +24,11 @@ const Header = () => {
               <LinkContainer to='/portfolio'>
                 <Nav.Link className='links ml-4'>Portfolio</Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/about'>
+              {/* <LinkContainer to='/about'>
                 <Nav.Link exact activeClassName='active' className='links ml-4'>
                   About
                 </Nav.Link>
-              </LinkContainer>
+              </LinkContainer> */}
               <LinkContainer to='/contact'>
                 <Nav.Link className='links ml-4'>Contact</Nav.Link>
               </LinkContainer>
@@ -37,7 +37,7 @@ const Header = () => {
         </Container>
       </Navbar>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

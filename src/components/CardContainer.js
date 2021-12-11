@@ -1,4 +1,4 @@
-import { Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap'
 
 const CardContainer = props => {
   return (
@@ -22,7 +22,21 @@ const CardContainer = props => {
         </div>
       </Col>
     </>
-  );
-};
 
-export default CardContainer;
+    // <Card className='cards'>
+    //   <Row>
+    //     <Col>
+    //       <Card.Img variant='bottom' src={props.image} />
+    //       <Card.Body>
+    //         <Card.Title>{props.header}</Card.Title>
+    //         <Card.Text>{props.about}</Card.Text>
+    //         <Card.Text>{props.description}</Card.Text>
+    //         <Button variant='primary'>{props.link}</Button>
+    //       </Card.Body>
+    //     </Col>
+    //   </Row>
+    // </Card>
+  )
+}
+
+export default CardContainer

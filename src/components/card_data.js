@@ -1,6 +1,6 @@
-import Delicious from '../images/delimeals.png';
-import Store from '../images/store-app.png';
-import fashion from '../images/fashion-house.png';
+import Delicious from '../images/delimeals.png'
+import Store from '../images/store-app.png'
+import fashion from '../images/fashion-house.png'
 
 const card_data = [
   {
@@ -30,6 +30,6 @@ const card_data = [
     about: 'HTML5, CSS3, Bootstrap',
     link: 'https://fashion-house.netlify.app',
   },
-];
+]
 
-export default card_data;
+export default card_data
